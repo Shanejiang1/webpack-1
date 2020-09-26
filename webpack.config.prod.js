@@ -11,7 +11,7 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "[name].[contenthash].css",
       chunkFilename: "[id].[contenthash].css",
-      ignoreOrder: false,
+      ignoreOrder: false, // Enable to remove warnings about conflicting order
     }),
   ],
   module: {
